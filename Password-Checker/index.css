@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: antiquewhite;
+    background: linear-gradient(45deg, rgb(143, 189, 205), rgb(121, 116, 116));
 }
 
 .container #password{
