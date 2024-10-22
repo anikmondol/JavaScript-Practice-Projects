@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background: linear-gradient(45deg, rgb(99, 69, 69), rgb(143, 189, 205));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,22 +31,32 @@ body{
    width: 100%;
    font-size: 16px;
    padding: 10px;
-   /* outline: 0; */
+   border: 1px solid rgb(182, 174, 174);
+   border-radius: 2px;
+   outline: 0;
 }
+
+.qr-container #qr-input:hover{
+    border: 1px solid rgb(16, 15, 15);
+ }
 
 .qr-container #qr-button{
     width: 100%;
     font-size: 1rem;
     padding: 10px;
     border: none;
-    background-color: #2ecc71;
+    background: linear-gradient(45deg, rgb(99, 69, 69), rgb(143, 189, 205));
     color: wheat;
     cursor: pointer;
     border-radius: 2px;
 }
 
+.qr-container #qr-button:hover{
+    background: linear-gradient(45deg, rgb(143, 189, 205), rgb(99, 69, 69));
+}
+
 .qr-container #qr-img{
    display: block;
    margin: 20px auto;
-   width: 50%;
+   width: 150px;
 }

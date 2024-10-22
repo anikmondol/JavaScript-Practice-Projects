@@ -13,8 +13,8 @@ qrButton.addEventListener("click", e =>{
     }else{
         qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${inputValue}`;
         qrImg.alt = `QR code for ${inputValue}`;
-
     }
      
+    qrInput.value = "";
 
 });
