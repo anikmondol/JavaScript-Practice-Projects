@@ -42,14 +42,14 @@
     height: auto; 
     object-fit: cover; 
     display: block; 
+    opacity: 0.9;
 }
 
 .image-container h2{
-    width: 100%;
     position: absolute;
     left: 50%;
-    right: 50%;
     top: 50%;
-    color: rgb(45, 42, 42);
-    font-size: 2rem;
+    transform: translate(-50%,-50%);
+    color: rgb(18, 18, 18);
+    font-size: 3rem;
 }
