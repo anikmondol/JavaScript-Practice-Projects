@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body .container {
+    background-color: white;
+    width: 220px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0px rgb(124, 120, 120);
+}
+
+body .container .header h2 {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+body .container #day {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+body .container #number-day {
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+body .container #year {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
