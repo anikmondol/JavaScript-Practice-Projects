@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+body .container{
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgb(116, 104, 104);
+}
+
+body .container .header{
+    background-color: rgb(123, 52, 189);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+body .container #year{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+body .container .date-other-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(123, 52, 189);
+    padding: 10px;
+    color: white;
+    border-radius: 0px 0px 5px 5px;
+}
+
+body .container .date-other-date #common-style p{
+   font-size: 1.7rem;
+   font-weight: bold;
+
+}

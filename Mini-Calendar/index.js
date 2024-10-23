@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", e => {
 
     let date = new Date();
 
-    console.log("month", date.getMonth());
+    // console.log("month", date.getMonth());
     
     day.textContent = date.getDate();
     year.textContent = date.getFullYear();
