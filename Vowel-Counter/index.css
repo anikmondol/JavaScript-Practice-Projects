@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+
+body .container{
+    width: 320px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0 rgb(91, 82, 82);
+}
+
+
+body .container .header h2{
+  padding: 10px;
+}
+
+body .container .textarea textarea{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+body .container .count button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+body .container .output{
+    margin-bottom: 10px;
+}
