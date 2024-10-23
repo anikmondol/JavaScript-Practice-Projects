@@ -22,4 +22,4 @@ function changeTest() {
         count = 0;
     }
 }
-setInterval(changeTest, 2000)
+setInterval(changeTest, 3000)
