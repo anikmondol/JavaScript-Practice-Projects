@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+body .container{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+
+body .container .xpos, body .container .ypos{
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+body .container .xpos h4, body .container .ypos h4{
+    position: absolute;
+    top: -45%;
+    padding-left: 65px;
+    font-size: 1.2rem;
+}
