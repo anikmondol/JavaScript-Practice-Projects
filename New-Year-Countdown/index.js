@@ -21,7 +21,7 @@ setInterval(() => {
 
     const daysLeft = Math.floor(totalSeconds / 3600 / 24);
     const hoursLeft = Math.floor(totalSeconds / 3600) % 24;
-    const minutesLeft = Math.floor(totalSeconds / 60) * 60;
+    const minutesLeft = Math.floor(totalSeconds / 60) % 60;
     const secondsLeft = Math.floor(totalSeconds) % 60;
 
    
