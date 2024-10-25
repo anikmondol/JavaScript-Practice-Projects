@@ -9,8 +9,15 @@ let result = document.querySelector("#result");
 let counter = 0;
 
 calculate3.addEventListener("click", e => {
-    counter--;
-    result.textContent = counter;
+    
+   
+
+    if (counter <= 0) {
+        alert("Something Is Wrong");
+    }else{
+        counter--;
+        result.textContent = counter;
+    }
 });
 
 calculate1.addEventListener("click", e => {
