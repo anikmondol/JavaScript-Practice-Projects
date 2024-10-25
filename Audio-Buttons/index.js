@@ -17,25 +17,53 @@ const audio6 = document.querySelector("#audio-wrong");
 
 
 button1.addEventListener("click", e => {
+     stopAudio();
     audio1.play();
+    
 });
 
 button2.addEventListener("click", e => {
+     stopAudio();
     audio2.play();
+    
 });
 
 button3.addEventListener("click", e => {
+     stopAudio();
     audio3.play();
+    
 });
 
 button4.addEventListener("click", e => {
+     stopAudio();
     audio4.play();
+    
 });
 
 button5.addEventListener("click", e => {
+     stopAudio();
     audio5.play();
+    
 });
 
 button6.addEventListener("click", e => {
+     stopAudio();
     audio6.play();
+    
 });
+
+
+function stopAudio(){
+    audio1.pause();
+    audio1.currentTime = 0;
+    audio2.pause();
+    audio2.currentTime = 0;
+    audio3.pause();
+    audio3.currentTime = 0;
+    audio4.pause();
+    audio4.currentTime = 0;
+    audio5.pause();
+    audio5.currentTime = 0;
+    audio6.pause();
+    audio6.currentTime = 0;
+}
