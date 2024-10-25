@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+body .buttons button{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 2px;
+    border: 1px solid rgb(122, 115, 115);
+    box-shadow: 0 0 10px 0 rgb(130, 130, 170);
+    background-color: rgb(208, 244, 232);
+}
+
+body .buttons button:hover{
+    box-shadow: 0 0 10px 0 rgb(27, 5, 224);
+    background-color: rgb(87, 199, 221);
+    transition-duration: 1s;
+}
